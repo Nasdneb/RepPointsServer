@@ -7,45 +7,45 @@ describe central bank account
 	- should pay user revenue according to reputation points
 
 describe user
-	- should have reputation points
-	- should have reliability percentage
-	- should have a list of tasks
-	- should have a list of publicly available resources
-	- should have a list of reoccurring tasks
-	- should have a list of reoccurring resource transfers
-	- should have a list of reoccurring reputation points transfers
+- should have reputation points
+- should have reliability percentage
+- should have a list of tasks
+- should have a list of publicly available resources
+- should have a list of reoccurring tasks
+- should have a list of reoccurring resource transfers
+- should have a list of reoccurring reputation points transfers
 
 describe reputation points
-	- should be equal to all users at the beginning
-	- should be gained from an accomplished task
-	- should be possible to give to other user
-	- should be recalculated to avoid inflation
-	- should be able to be regularly assigned to a reoccurring task
-	- should be multiplied when a user joins or leaves the organization
+- should be equal to all users at the beginning
+- should be gained from an accomplished task
+- should be possible to give to other user
+- should be recalculated to avoid inflation
+- should be able to be regularly assigned to a reoccurring task
+- should be multiplied when a user joins or leaves the organization
 
 describe task
-	- should be possible to create by an user
-	- should be assigned a title
-	- should be assigned a description
-	- should be assigned expected reputation points
-	- should be assigned necessary resources
-	- should be assigned an estimated time for accomplishment
-	- should accept reputation points for backing
-	- should need total amount of expected reputation points to be backed successfully
-	- should distribute backed reputation points to all users equally once backed successfully
-	- should transfer the assigned points to the task creator once finished
-	- should be logged
-	- should accept comments
-	- should be able to create as reoccurring task
-	- should show it's results to the backers, once accomplished
+- should be possible to create by an user
+- should be assigned a title
+- should be assigned a description
+- should be assigned expected reputation points
+- should be assigned necessary resources
+- should be assigned an estimated time for accomplishment
+- should accept reputation points for backing
+- should need total amount of expected reputation points to be backed successfully
+- should distribute backed reputation points to all users equally once backed successfully
+- should transfer the assigned points to the task creator once finished
+- should be logged
+- should accept comments
+- should be able to create as reoccurring task
+- should show it's results to the backers, once accomplished
 
 describe reliability
-	- should be voted on by users once a task is accomplished
+- should be voted on by users once a task is accomplished
 
 describe resources
-	- should be assigned to a task if necessary
-	- should be transferred from user to user
-	- should be able to be regularly transferred to a reoccurring task
+- should be assigned to a task if necessary
+- should be transferred from user to user
+- should be able to be regularly transferred to a reoccurring task
 
 interface specification
 
