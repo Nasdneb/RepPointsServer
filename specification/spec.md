@@ -1,10 +1,10 @@
-Fair Collaboration
+#Fair Collaboration
 
-components specification
+##Components specification
 
 describe central bank account
-	- should accumulate all income
-	- should pay user revenue according to reputation points
+- should accumulate all income
+- should pay user revenue according to reputation points
 
 describe user
 - should have reputation points
@@ -47,7 +47,7 @@ describe resources
 - should be transferred from user to user
 - should be able to be regularly transferred to a reoccurring task
 
-interface specification
+##Interface specification
 
 As a user
 When I go to the task board
